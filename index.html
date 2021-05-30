@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="./main.css">
+	<script src="js/main.js"></script>
+
+	<title>Age Calculator</title>
+</head>
+
+<body>
+	<div class="my-main-container">
+
+		<div class="calculator-card">
+
+			<div class="calculator-card__title">Age Calculator</div>
+
+			<div class="calculator-card__unit-name">Enter Your Birth Date</div>
+
+			<div class="calculator-card__unit-description"><input type="date" id="birthdate_id"></div>
+
+			<div class="calculator-card__unit-description">
+				<input type="button" class='greenbuttons' name="submit" onclick="javascript:submitfun()" value="Calculate">
+			</div>
+
+			<div class="calculator-card__result-box">
+				<div id="age-result">&nbsp;</div>
+			</div>
+
+		</div>
+
+	</div> <!-- end my-main-container -->
+</body>
+
+<script>
+	document.getElementById("birthdate_id").value = today;
+</script>
+
+</html>
