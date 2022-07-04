@@ -12,7 +12,7 @@
 }
 
 .greenbuttons {
-	/* height: 30px; 
+	/* height: 30px;
 	width: 60px;*/
 	padding: 2px 10px;          /*instead of height width use padding as padding allows button to change size depends on word length*/
 	color: white;                  /*text color*/
@@ -28,7 +28,7 @@
 .greenbuttons:hover {
 	color: #82bb30;
 	background-color: white;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
  .my-main-container {
@@ -60,7 +60,7 @@
 
 	 border-top-left-radius: 14px;
 	 border-top-right-radius: 14px;
-	 
+
 	 position: relative;
 }
 
@@ -73,7 +73,7 @@
 }
  .calculator-card__unit-description {
 	 padding: 10px;
-	 margin-bottom: 10px; 
+	 margin-bottom: 10px;
 }
 
  .calculator-card__result-box {
@@ -92,4 +92,3 @@
 
 
 
- 
